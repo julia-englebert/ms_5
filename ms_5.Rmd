@@ -13,6 +13,7 @@ library(gt)
 library(devtools)
 library(tibble)
 library(foreign)
+library(scales)
 ```
 
 ```{r read_ag, include=FALSE}
@@ -248,10 +249,13 @@ j_1870 <- full_join(tbl_1, tbl_1_d, by = "fips") %>%
 mplot <- j_1870 %>% ggplot(aes(x = value_farms, y = perc_school)) + 
   geom_point(alpha = 0.5) + 
   ylim(0, 50) + 
-  xlim(0, 5e+06) + 
   geom_smooth(method = "lm") + 
   theme_classic() + 
-  labs(title = "Relationship Between Farm Value and Education, by County", subtitle = "Great Plains Region, United States, 1870", x = "Total Dollar Value of Farms", y = "Percent Students Ages 5-24 Enrolled in School")
+  labs(title = "Relationship Between Farm Value and Education, by County", 
+       subtitle = "Great Plains Region, United States, 1870", 
+       x = "Total Dollar Value of Farms", 
+       y = "Percent Students Ages 5-24 Enrolled in School") +
+  scale_x_continuous(labels = comma, limits = (c(0, 7000000)))
 
 ```
 
