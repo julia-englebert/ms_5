@@ -1,0 +1,635 @@
+File Manifest for ICPSR 4254
+
+Gutmann, Myron P. Great Plains Population and Environment Data:
+Agricultural Data, 1870-1997 [United States]. ICPSR04254-v1. Ann Arbor, MI:
+Inter-university Consortium for Political and Social Research
+[distributor], 2005-06-22. http://doi.org/10.3886/ICPSR04254.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-descriptioncitation.pdf       -       -         -       2017-02-28  -
+
+    04254-related_literature.txt        -       -         -       daily       -
+
+    04254-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 1870 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0001-Codebook.pdf             -       -         -       2005-06-22  a9df4a1ecc4fb2a712f94ef6b53c82eb
+
+    04254-0001-Data.dta                 -       532       24      2005-06-22  2c7974e9b3d30ca23c76be4df3b8ebfa
+
+    04254-0001-Data.por                 -       532       24      2005-06-22  2dba15454ed7c6b0b6eb7305e8f60b89
+
+    04254-0001-Data.txt                 201     532       24      2005-06-22  9c47d1a557e57d666308f6105f4ea26f
+
+    04254-0001-Data.xpt                 -       532       24      2005-06-22  ac9dbbfd46075218ed1d33ea663eed63
+
+    04254-0001-Setup.dct                -       -         -       2005-06-22  007aa91f427437b33e341ba47d67c51d
+
+    04254-0001-Setup.do                 -       -         -       2005-06-22  909bd1cb8f3d9a1d8528551f4d9c17ef
+
+    04254-0001-Setup.sas                -       -         -       2005-06-22  73110cb6a596be5021f67e9ed53fc792
+
+    04254-0001-Setup.sps                -       -         -       2005-06-22  8e68775b8f7c7ef3d061d5961fde5364
+
+    04254-0001-Supplemental_syntax.do   -       -         -       2005-06-22  1ed5caca284dfb208f0c449979787705
+
+    04254-0001-Supplemental_syntax.sas  -       -         -       2005-06-22  695740e809b398dda5eb67eff4db33d4
+
+
+DS0002 1880 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0002-Codebook.pdf             -       -         -       2005-06-22  e0db1e4af42b5b91b0fcac538e3f9934
+
+    04254-0002-Data.dta                 -       735       72      2005-06-22  406070bf943d5dfdfe7f3ef17e973332
+
+    04254-0002-Data.por                 -       735       72      2005-06-22  2a6016290fbed687407a7a7eb1056da2
+
+    04254-0002-Data.txt                 487     735       72      2005-06-22  f80cecc271bfb481d21acd197ae3e063
+
+    04254-0002-Data.xpt                 -       735       72      2005-06-22  a96d2ebe921f9ffbe36dd63f09e5a7a4
+
+    04254-0002-Setup.dct                -       -         -       2005-06-22  e4d4fdc283ee2f2a07ca38cfde94cfc3
+
+    04254-0002-Setup.do                 -       -         -       2005-06-22  f8d416a1ffeaac8cb61c8a8cf8c46903
+
+    04254-0002-Setup.sas                -       -         -       2005-06-22  4320f62e4ef6c7af79988f6bcb67f717
+
+    04254-0002-Setup.sps                -       -         -       2005-06-22  6610951d31e1d1327c7a32cf987599ca
+
+    04254-0002-Supplemental_syntax.do   -       -         -       2005-06-22  64875c9239f9ddb738e19b78a51ad0bb
+
+    04254-0002-Supplemental_syntax.sas  -       -         -       2005-06-22  a2fd56b875d63735a30612c1094c3e65
+
+
+DS0003 1890 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0003-Codebook.pdf             -       -         -       2005-06-22  237b1f35e02cab92089a812dc5e3b96e
+
+    04254-0003-Data.dta                 -       865       65      2005-06-22  49a8bde9e99c0ed3bc80ce62478fe3c8
+
+    04254-0003-Data.por                 -       865       65      2005-06-22  4a83eeca379b4d4fa8aa26c0dcb56213
+
+    04254-0003-Data.txt                 451     865       65      2005-06-22  514b44771939d95e3a05d54b3298d86e
+
+    04254-0003-Data.xpt                 -       865       65      2005-06-22  3a001364be2e3de73de6da7fd0bc84e4
+
+    04254-0003-Setup.dct                -       -         -       2005-06-22  0bb0cff54d6eaa5bc601c603de90cf66
+
+    04254-0003-Setup.do                 -       -         -       2005-06-22  308835dd416732571da8f9a8b7acdd8c
+
+    04254-0003-Setup.sas                -       -         -       2005-06-22  1585edd6437092e82e12adc30b133c0e
+
+    04254-0003-Setup.sps                -       -         -       2005-06-22  e0ae1262390777b3123596bcb5f61e68
+
+    04254-0003-Supplemental_syntax.do   -       -         -       2005-06-22  e3ca83b63ae7c15fcfd39c9443feac34
+
+    04254-0003-Supplemental_syntax.sas  -       -         -       2005-06-22  5530a62b8d8e40c821400213e1e6aef4
+
+
+DS0004 1900 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0004-Codebook.pdf             -       -         -       2005-06-22  b34359aa34ef8277e61b9a720cc56b33
+
+    04254-0004-Data.dta                 -       897       116     2005-06-22  761dfc1df4fb9bd4547f2a87f56c8e10
+
+    04254-0004-Data.por                 -       897       116     2005-06-22  a24f9872713cb4a3673397865b547619
+
+    04254-0004-Data.txt                 743     897       116     2005-06-22  ce178e78dc0f225d01b10de7a39d0404
+
+    04254-0004-Data.xpt                 -       897       116     2005-06-22  504a9d64734640ef64dfc456680b0ef4
+
+    04254-0004-Setup.dct                -       -         -       2005-06-22  61bbf9bea8bd64afc45d4ef1603d2cb2
+
+    04254-0004-Setup.do                 -       -         -       2005-06-22  e9963b786bdc0bf297a77eb1cffac37c
+
+    04254-0004-Setup.sas                -       -         -       2005-06-22  6f61ab4d768eefd32e218864e83869d7
+
+    04254-0004-Setup.sps                -       -         -       2005-06-22  483d29c96228f50384bb6baab4bd29bd
+
+    04254-0004-Supplemental_syntax.do   -       -         -       2005-06-22  2983b97fd0998af666d53c489b444b38
+
+    04254-0004-Supplemental_syntax.sas  -       -         -       2005-06-22  0ae739418cdd2fb8c9e124765dc5bcb7
+
+
+DS0005 1910 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0005-Codebook.pdf             -       -         -       2005-06-22  e8aa247258f194b893057b6641e82296
+
+    04254-0005-Data.dta                 -       961       111     2005-06-22  a65a0bba6525166cd6156c93063cc464
+
+    04254-0005-Data.por                 -       961       111     2005-06-22  7603940a9c79124d9cbdbc0142675fc2
+
+    04254-0005-Data.txt                 733     961       111     2005-06-22  6e88bb43be48b3c0db9a24b58c3062cb
+
+    04254-0005-Data.xpt                 -       961       111     2005-06-22  9e6d1cf4fee3265983818733886595b4
+
+    04254-0005-Setup.dct                -       -         -       2005-06-22  ebbe42ce5fc90900ce5c0ebe923bffb0
+
+    04254-0005-Setup.do                 -       -         -       2005-06-22  388c6a57e8558766478a5cc26f4ab956
+
+    04254-0005-Setup.sas                -       -         -       2005-06-22  19a9b40b1c7c5f6588007276a17c5b35
+
+    04254-0005-Setup.sps                -       -         -       2005-06-22  f1380ac740652d69c6049e0cf790aeba
+
+    04254-0005-Supplemental_syntax.do   -       -         -       2005-06-22  516256e2ecde22bd2c9168c4ee907f5c
+
+    04254-0005-Supplemental_syntax.sas  -       -         -       2005-06-22  acc5bd35fe1c3f61288ffaaa5039643c
+
+
+DS0006 1920 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0006-Codebook.pdf             -       -         -       2005-06-22  5c4f8a2ade9ecdb56f21116a8fe7ef51
+
+    04254-0006-Data.dta                 -       1,013     157     2005-06-22  da782e2287acfb42996eafaad0c85494
+
+    04254-0006-Data.por                 -       1,013     157     2005-06-22  0631ce21d6a3838bfd6f169edfe2bce6
+
+    04254-0006-Data.txt                 1053    1,013     157     2005-06-22  f926d94ac404b803768bd4d994ff7d8d
+
+    04254-0006-Data.xpt                 -       1,013     157     2005-06-22  9623cde788314f3ada2f6772bf9c9e12
+
+    04254-0006-Setup.dct                -       -         -       2005-06-22  b1b52ceafee59c8317f7c34b21cd02d7
+
+    04254-0006-Setup.do                 -       -         -       2005-06-22  6923cab314a56f3b0698dbcb8cd43186
+
+    04254-0006-Setup.sas                -       -         -       2005-06-22  01f793cc09981914a60fb833db75edbe
+
+    04254-0006-Setup.sps                -       -         -       2005-06-22  f3c99ecb957096a9b6711169488e88dc
+
+    04254-0006-Supplemental_syntax.do   -       -         -       2005-06-22  e9b265aff49edfde67fda06caf631b15
+
+    04254-0006-Supplemental_syntax.sas  -       -         -       2005-06-22  b31354677d531d7dc747d80e1fa65626
+
+
+DS0007 1925 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0007-Codebook.pdf             -       -         -       2005-06-22  413ad54ebda1c220e3159421dd856560
+
+    04254-0007-Data.dta                 -       1,022     96      2005-06-22  afb11fabf310ff28b4f36a2f7aac4e8a
+
+    04254-0007-Data.por                 -       1,022     96      2005-06-22  7d97457080e327c01927d7cc5cc218f2
+
+    04254-0007-Data.txt                 670     1,022     96      2005-06-22  2a37023c7444eee9e893179467599b94
+
+    04254-0007-Data.xpt                 -       1,022     96      2005-06-22  b384d9f233361a94235dea82bb638d39
+
+    04254-0007-Setup.dct                -       -         -       2005-06-22  604e930472df8ea4ec1eec4df2767712
+
+    04254-0007-Setup.do                 -       -         -       2005-06-22  cad14e9a3bd71ae0a192aec0828c726b
+
+    04254-0007-Setup.sas                -       -         -       2005-06-22  504b85bbf4ea490985979d0eb09485fb
+
+    04254-0007-Setup.sps                -       -         -       2005-06-22  3a9b62f307c4d6bb860141d766e74dd4
+
+    04254-0007-Supplemental_syntax.do   -       -         -       2005-06-22  4155b020f0b7bd3e2a16bf0e13447bc9
+
+    04254-0007-Supplemental_syntax.sas  -       -         -       2005-06-22  d2240ba1b5c00dc236d2210582525774
+
+
+DS0008 1930 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0008-Codebook.pdf             -       -         -       2005-06-22  cdd23e732832bd3fcaa59fc2e396b683
+
+    04254-0008-Data.dta                 -       1,024     185     2005-06-22  c037d4a0ea81e7d265822b4f970587bc
+
+    04254-0008-Data.por                 -       1,024     185     2005-06-22  feb089c584deedc0dcb335dda354f510
+
+    04254-0008-Data.txt                 1280    1,024     185     2005-06-22  ac31a6d7592964222a7d34235613a2d2
+
+    04254-0008-Data.xpt                 -       1,024     185     2005-06-22  cee7dcb3802181cecfcd0e59c5f55697
+
+    04254-0008-Setup.dct                -       -         -       2005-06-22  51139ce14170ed497557c522b55db4b8
+
+    04254-0008-Setup.do                 -       -         -       2005-06-22  d998cffc5c612a256a771c48cfe7d2a0
+
+    04254-0008-Setup.sas                -       -         -       2005-06-22  816e3abf0528d68fda000e1e75c6857d
+
+    04254-0008-Setup.sps                -       -         -       2005-06-22  1383adb285b4e0a615b2bda8d3f4f7fa
+
+    04254-0008-Supplemental_syntax.do   -       -         -       2005-06-22  282439f94889b569f98093a6d44783d8
+
+    04254-0008-Supplemental_syntax.sas  -       -         -       2005-06-22  71bddad6736075b830fcf95a38f6d453
+
+
+DS0009 1935 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0009-Codebook.pdf             -       -         -       2005-06-22  fd0780d2bd24afedc9242e21c0fadb14
+
+    04254-0009-Data.dta                 -       1,024     88      2005-06-22  d4de46532b3adb9e5222efc18725b4ed
+
+    04254-0009-Data.por                 -       1,024     88      2005-06-22  23f5023443d746093595444913e53281
+
+    04254-0009-Data.txt                 633     1,024     88      2005-06-22  fc2f549e3ca580a0493b5509dbde13e3
+
+    04254-0009-Data.xpt                 -       1,024     88      2005-06-22  53627f438ecb0d6fc94dfc8735fabcbd
+
+    04254-0009-Setup.dct                -       -         -       2005-06-22  508280307c1bdd8767f78d78da56bd93
+
+    04254-0009-Setup.do                 -       -         -       2005-06-22  092c6ffe12e94d3d69a16ea5c5a02e54
+
+    04254-0009-Setup.sas                -       -         -       2005-06-22  52b4c4aff26c4cde87a1d9ad1f49663b
+
+    04254-0009-Setup.sps                -       -         -       2005-06-22  f2ed94535a3cf1c606988d80c51aa633
+
+    04254-0009-Supplemental_syntax.do   -       -         -       2005-06-22  3132e74c4eb84b4b328d07900e612544
+
+    04254-0009-Supplemental_syntax.sas  -       -         -       2005-06-22  effa1fa855002d9bb35efea967388649
+
+
+DS0010 1940 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0010-Codebook.pdf             -       -         -       2005-06-22  c3d3c424529e37ea5f776351e6ad4737
+
+    04254-0010-Data.dta                 -       1,024     197     2005-06-22  0d3d54579baecef7c2688c0b92eeb37e
+
+    04254-0010-Data.por                 -       1,024     197     2005-06-22  ad940985f39ca512df70d0a28da18979
+
+    04254-0010-Data.txt                 1349    1,024     197     2005-06-22  abe2ca03a6348de9a8f063efcb0116d3
+
+    04254-0010-Data.xpt                 -       1,024     197     2005-06-22  32ae136d35ac935e6acc033aaea8caf0
+
+    04254-0010-Setup.dct                -       -         -       2005-06-22  c994b79cebf1b3c3ffb9858f4efaa775
+
+    04254-0010-Setup.do                 -       -         -       2005-06-22  54d1e4962f4c35ff11a1f79c7e705f76
+
+    04254-0010-Setup.sas                -       -         -       2005-06-22  b8fa9b06f59fae74f1437e914b6f98f3
+
+    04254-0010-Setup.sps                -       -         -       2005-06-22  418181754d2950e7cd1bb5a47c714e55
+
+    04254-0010-Supplemental_syntax.do   -       -         -       2005-06-22  d3a7f2a58ba431a34295a18dd0ddc17a
+
+    04254-0010-Supplemental_syntax.sas  -       -         -       2005-06-22  9117333de0d0ff8ff229b7ecd97ad3ce
+
+
+DS0011 1945 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0011-Codebook.pdf             -       -         -       2005-06-22  5e9cf25e61d6df2d72b2a2c1d7605129
+
+    04254-0011-Data.dta                 -       1,023     88      2005-06-22  66e2230652fc4f87e37316671a92f145
+
+    04254-0011-Data.por                 -       1,023     88      2005-06-22  ffd26fcd44db10bb11a2552b6e0ff539
+
+    04254-0011-Data.txt                 643     1,023     88      2005-06-22  cce4d626ed580a277ce6f22d49bb6870
+
+    04254-0011-Data.xpt                 -       1,023     88      2005-06-22  c4ce78cb9fd291a93477e4ff0037b377
+
+    04254-0011-Setup.dct                -       -         -       2005-06-22  0cd4c0d065bafcf952827f347692f1d8
+
+    04254-0011-Setup.do                 -       -         -       2005-06-22  2b3d9590c42d50143ad36dba946c3412
+
+    04254-0011-Setup.sas                -       -         -       2005-06-22  26ddd4ccdf0bb0f6b820af13239f953c
+
+    04254-0011-Setup.sps                -       -         -       2005-06-22  09b21b86d241daa08530593b989b5027
+
+    04254-0011-Supplemental_syntax.do   -       -         -       2005-06-22  86a6181189ab8ece3600ac0bdd6dc2bb
+
+    04254-0011-Supplemental_syntax.sas  -       -         -       2005-06-22  1f1f24d8ea24edec1ff1861859666312
+
+
+DS0012 1950 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0012-Codebook.pdf             -       -         -       2005-06-22  eb8b81f7448bc9cef589cb31a93f5a7d
+
+    04254-0012-Data.dta                 -       1,023     191     2005-06-22  0079afa2b28177957c61976a306c9a1e
+
+    04254-0012-Data.por                 -       1,023     191     2005-06-22  f1e3d4bec217902d2b9b3ca822ccc955
+
+    04254-0012-Data.txt                 1254    1,023     191     2005-06-22  d92bf05fe23b6ed9f26dd21bc9695494
+
+    04254-0012-Data.xpt                 -       1,023     191     2005-06-22  9044d565fa109f5fc10fb8b55404f85c
+
+    04254-0012-Setup.dct                -       -         -       2005-06-22  068cd0f57d1981c98639d910bb05e0f7
+
+    04254-0012-Setup.do                 -       -         -       2005-06-22  940e60ff2cde7dc34c4eb9309be99d62
+
+    04254-0012-Setup.sas                -       -         -       2005-06-22  5d6d5c06be83b0c1107ed09d767da7bd
+
+    04254-0012-Setup.sps                -       -         -       2005-06-22  dc717f1769d4492d5b72291b7c48be17
+
+    04254-0012-Supplemental_syntax.do   -       -         -       2005-06-22  1e769d8a4538d1be48edc86ac5907a3e
+
+    04254-0012-Supplemental_syntax.sas  -       -         -       2005-06-22  0b8ffd3c42596200405afcc4519a8b81
+
+
+DS0013 1954 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0013-Codebook.pdf             -       -         -       2005-06-22  b1210257f5a9c48f1cec59982f65778f
+
+    04254-0013-Data.dta                 -       1,022     169     2005-06-22  14bf86f45be262a0c60fc104afd36999
+
+    04254-0013-Data.por                 -       1,022     169     2005-06-22  39d4fd6fe014ec8c19e744020b23b0c1
+
+    04254-0013-Data.txt                 1170    1,022     169     2005-06-22  c93199855872cab50d521967c2e854d2
+
+    04254-0013-Data.xpt                 -       1,022     169     2005-06-22  f483042e42b41070ed5e532ec9b6d6b1
+
+    04254-0013-Setup.dct                -       -         -       2005-06-22  f75d4e7920636532dc26c78bb5df8b52
+
+    04254-0013-Setup.do                 -       -         -       2005-06-22  fc0367f0094a059d569b9b70f826cc77
+
+    04254-0013-Setup.sas                -       -         -       2005-06-22  a7f916fcca1b5a4053db37c1e89fc0ec
+
+    04254-0013-Setup.sps                -       -         -       2005-06-22  d3dcc07268e0bfc6c684178607e4b291
+
+    04254-0013-Supplemental_syntax.do   -       -         -       2005-06-22  979f5634283d54b3b8b383526778ce7c
+
+    04254-0013-Supplemental_syntax.sas  -       -         -       2005-06-22  a0515086625f607bfa68990afcc8d84a
+
+
+DS0014 1959 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0014-Codebook.pdf             -       -         -       2005-06-22  ef54930dbd7ef18a5af7dd2c62b03eed
+
+    04254-0014-Data.dta                 -       1,022     179     2005-06-22  efc7cc4a22f5ed37913f0f91930ea7b6
+
+    04254-0014-Data.por                 -       1,022     179     2005-06-22  09d1587a8fcedda73d5957c4ab3a97d5
+
+    04254-0014-Data.txt                 1234    1,022     179     2005-06-22  04d9148a3f50d02582532971ccdf6f6e
+
+    04254-0014-Data.xpt                 -       1,022     179     2005-06-22  6d0e6335e93b80ed9c780ddefb484a18
+
+    04254-0014-Setup.dct                -       -         -       2005-06-22  6dfa816219f7b13fefddc6e319505ba4
+
+    04254-0014-Setup.do                 -       -         -       2005-06-22  a7b40e4eec130a62046f3196988dc4d2
+
+    04254-0014-Setup.sas                -       -         -       2005-06-22  f52303a58eddcaba1ab17a42c39c9f56
+
+    04254-0014-Setup.sps                -       -         -       2005-06-22  3ecce0b865388bca9fcca78c252dd753
+
+    04254-0014-Supplemental_syntax.do   -       -         -       2005-06-22  a67380e0e1885f510da65ee4aacec7a0
+
+    04254-0014-Supplemental_syntax.sas  -       -         -       2005-06-22  6e3fff1f2d3dd2a16b1f36ea836da6a1
+
+
+DS0015 1964 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0015-Codebook.pdf             -       -         -       2005-06-22  faa7e77a2c03c921e8c4042024f862e6
+
+    04254-0015-Data.dta                 -       1,022     186     2005-06-22  c4a97cce2d12c3ebdcba826c5fdb1abc
+
+    04254-0015-Data.por                 -       1,022     186     2005-06-22  43bfc7470167e65fc1e0370f0cc13486
+
+    04254-0015-Data.txt                 1279    1,022     186     2005-06-22  4f3075bd77ee81ef68b692327cbdb883
+
+    04254-0015-Data.xpt                 -       1,022     186     2005-06-22  db418a6e79435ec8750d524113f99024
+
+    04254-0015-Setup.dct                -       -         -       2005-06-22  39783990749bf39b3220301068ff72d4
+
+    04254-0015-Setup.do                 -       -         -       2005-06-22  09ed6bfd88ba1d09b6ac2dbca0eb1466
+
+    04254-0015-Setup.sas                -       -         -       2005-06-22  9767689caa2aaa96644950734c680352
+
+    04254-0015-Setup.sps                -       -         -       2005-06-22  b1edbad928e99e16874f3ef142cbd3d3
+
+    04254-0015-Supplemental_syntax.do   -       -         -       2005-06-22  4dae53b0ed9c487054a5e63f2bd60281
+
+    04254-0015-Supplemental_syntax.sas  -       -         -       2005-06-22  6d120d0526ec4bf3eadc411ea5f1b448
+
+
+DS0016 1969 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0016-Codebook.pdf             -       -         -       2005-06-22  a52d0df5f350bade99f05bb1d4c5989f
+
+    04254-0016-Data.dta                 -       2,030     164     2005-06-22  88db2ec4bd83c77e2b2ada98591728c5
+
+    04254-0016-Data.por                 -       2,030     164     2005-06-22  87274c933be2d218b1f8818839fb80b8
+
+    04254-0016-Data.txt                 1079    2,030     164     2005-06-22  99603f4a5096b16bc805e1e13b67a721
+
+    04254-0016-Data.xpt                 -       2,030     164     2005-06-22  8873f7ca8971a44c2f6ef325b078cbe3
+
+    04254-0016-Setup.dct                -       -         -       2005-06-22  8626174cfa922dff6954429da1a97dc1
+
+    04254-0016-Setup.do                 -       -         -       2005-06-22  0f45f7820acb8511bbaa2d736f3409cc
+
+    04254-0016-Setup.sas                -       -         -       2005-06-22  f1023cef40054b24c56cd809c0755cdb
+
+    04254-0016-Setup.sps                -       -         -       2005-06-22  83808316e335998531c74e9bea219c40
+
+    04254-0016-Supplemental_syntax.do   -       -         -       2005-06-22  63e2f0b35591f1460b0bf67207fdd57f
+
+    04254-0016-Supplemental_syntax.sas  -       -         -       2005-06-22  513aae32fd10d66748c1caffb2920f3f
+
+
+DS0017 1974 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0017-Codebook.pdf             -       -         -       2005-06-22  331e16ebb41ea32cff7a8d0e07f35941
+
+    04254-0017-Data.dta                 -       2,025     121     2005-06-22  6fedb8350e66e9f52910594d0d1bf302
+
+    04254-0017-Data.por                 -       2,025     121     2005-06-22  e380b849fc849dc764055851a6b20303
+
+    04254-0017-Data.txt                 830     2,025     121     2005-06-22  ca951b815aa535a47d9ff4b6bfc54190
+
+    04254-0017-Data.xpt                 -       2,025     121     2005-06-22  a14546554307e5ad450393a16073e9cb
+
+    04254-0017-Setup.dct                -       -         -       2005-06-22  b599b4c1bee32c7855882b0bd3d13d84
+
+    04254-0017-Setup.do                 -       -         -       2005-06-22  050477fcc0900c50e90d21703bcdde50
+
+    04254-0017-Setup.sas                -       -         -       2005-06-22  7ebb628438c279864149cbbfae30e52d
+
+    04254-0017-Setup.sps                -       -         -       2005-06-22  31b78f257e5958fd1d9c8c3704da5088
+
+    04254-0017-Supplemental_syntax.do   -       -         -       2005-06-22  f117da00355b8b0f1b34b82afb56ab60
+
+    04254-0017-Supplemental_syntax.sas  -       -         -       2005-06-22  aa717641122dba1371ceeca115464ebe
+
+
+DS0018 1978 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0018-Codebook.pdf             -       -         -       2005-06-22  67c644a63089814d4f7f5e147393086c
+
+    04254-0018-Data.dta                 -       1,021     156     2005-06-22  2ce027ad018aa72fb71e854a67d16e66
+
+    04254-0018-Data.por                 -       1,021     156     2005-06-22  5421df7ff2fb8c82ff1083fe2db7eb17
+
+    04254-0018-Data.txt                 1023    1,021     156     2005-06-22  740c6016d566c45afaa2ed4437fa49f0
+
+    04254-0018-Data.xpt                 -       1,021     156     2005-06-22  44037da4087bfde4722248fac6d4275a
+
+    04254-0018-Setup.dct                -       -         -       2005-06-22  f32064b4cbe992f01dfbe6ec0484db94
+
+    04254-0018-Setup.do                 -       -         -       2005-06-22  39c38c4d52485b59906631bd9abd53a1
+
+    04254-0018-Setup.sas                -       -         -       2005-06-22  3f97ac6fe640b6a564e327a2343279af
+
+    04254-0018-Setup.sps                -       -         -       2005-06-22  0f6766a613679cc4239625c61c83dcf2
+
+    04254-0018-Supplemental_syntax.do   -       -         -       2005-06-22  7da64768af1673fc947b5953115c7048
+
+    04254-0018-Supplemental_syntax.sas  -       -         -       2005-06-22  684ec336ead7e5ee91f9824dbbc647bf
+
+
+DS0019 1982 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0019-Codebook.pdf             -       -         -       2005-06-22  78070395b7a308a57670822f65e8d09a
+
+    04254-0019-Data.dta                 -       1,022     157     2005-06-22  f8d534f99eb18edf8ec6d1ce48394aa9
+
+    04254-0019-Data.por                 -       1,022     157     2005-06-22  1e91be7f7e1cdccf2ba10e90cfabdebd
+
+    04254-0019-Data.txt                 962     1,022     157     2005-06-22  899cbb968600dcc31ce065aafd564224
+
+    04254-0019-Data.xpt                 -       1,022     157     2005-06-22  381b603f5ca51e76923cdf2c164cc19f
+
+    04254-0019-Setup.dct                -       -         -       2005-06-22  7fbbc7d5ab093700490d4ca311f80eed
+
+    04254-0019-Setup.do                 -       -         -       2005-06-22  0a96915ecfcb4dd6c1bb966713adc5d3
+
+    04254-0019-Setup.sas                -       -         -       2005-06-22  964d0622cd3944d37d5814eb9b8cd1e8
+
+    04254-0019-Setup.sps                -       -         -       2005-06-22  37ac85dc25fe9f42fe8c472456de4e08
+
+    04254-0019-Supplemental_syntax.do   -       -         -       2005-06-22  e9ed9c2693d98a74f6949dfe24c06145
+
+    04254-0019-Supplemental_syntax.sas  -       -         -       2005-06-22  75c1b209d22609b5f7a441b4a16206b9
+
+
+DS0020 1987 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0020-Codebook.pdf             -       -         -       2005-06-22  509d852a0b2de8a4460faec57424bd62
+
+    04254-0020-Data.dta                 -       1,022     156     2005-06-22  1bda1a59f83117c1d3b8a303c6a3382c
+
+    04254-0020-Data.por                 -       1,022     156     2005-06-22  04ee73e022be7e027efd704eb52be87c
+
+    04254-0020-Data.txt                 967     1,022     156     2005-06-22  84c7e2777fc2267107e4a5d045ad94bf
+
+    04254-0020-Data.xpt                 -       1,022     156     2005-06-22  cb253ef3cbc7ac8c2c0de3fac18ba897
+
+    04254-0020-Setup.dct                -       -         -       2005-06-22  eceed6d94379146b3ac060ef9f02fc33
+
+    04254-0020-Setup.do                 -       -         -       2005-06-22  b26ae55c1f0b0255f23baf6340627f4f
+
+    04254-0020-Setup.sas                -       -         -       2005-06-22  fac6412902ff6b659c0bde6171feb415
+
+    04254-0020-Setup.sps                -       -         -       2005-06-22  c7c8099f6e4263753659783cf18aef8b
+
+    04254-0020-Supplemental_syntax.do   -       -         -       2005-06-22  ba9d046101161b059bdf1cd7bfa03d09
+
+    04254-0020-Supplemental_syntax.sas  -       -         -       2005-06-22  fbb4ea05a706ccd64025a47edceb5337
+
+
+DS0021 1992 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0021-Codebook.pdf             -       -         -       2005-06-22  ccf60b3ccc5d710142354b2bcc09dcd6
+
+    04254-0021-Data.dta                 -       1,022     164     2005-06-22  13c0c16c9f83124940dd6ebbe5604499
+
+    04254-0021-Data.por                 -       1,022     164     2005-06-22  aadbb3aa777b1b7f0ba8348ae38bda07
+
+    04254-0021-Data.txt                 1072    1,022     164     2005-06-22  f60c2da3976800136d0c42cc50412ec7
+
+    04254-0021-Data.xpt                 -       1,022     164     2005-06-22  1f0988b31c0f038233f3a3262c0f433d
+
+    04254-0021-Setup.dct                -       -         -       2005-06-22  077754f42bcb6e9072fef7aa2a9be781
+
+    04254-0021-Setup.do                 -       -         -       2005-06-22  19082575961cedd2e9aa4032f78fd67b
+
+    04254-0021-Setup.sas                -       -         -       2005-06-22  9d793238e5aa09a3c3c31d46a2d1ccd2
+
+    04254-0021-Setup.sps                -       -         -       2005-06-22  50846e049628e8255e827ea0fdf70f2c
+
+    04254-0021-Supplemental_syntax.do   -       -         -       2005-06-22  7ed1c469629044f920ca35627782ea88
+
+    04254-0021-Supplemental_syntax.sas  -       -         -       2005-06-22  8e1d87cdaab8872953de0dbb38fbb81d
+
+
+DS0022 1997 Agricultural Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04254-0022-Codebook.pdf             -       -         -       2005-06-22  75ecf26ee717571058d5cbdf18f9071c
+
+    04254-0022-Data.dta                 -       1,022     164     2005-06-22  05791853005102f8ee96b5732f96589a
+
+    04254-0022-Data.por                 -       1,022     164     2005-06-22  fb50690023d6f0670828a8797a4318e5
+
+    04254-0022-Data.txt                 1048    1,022     164     2005-06-22  02f92c2ba4ff88f0d1a0411ac4bda7e8
+
+    04254-0022-Data.xpt                 -       1,022     164     2005-06-22  2a3df413773965faae36fb2edc81b995
+
+    04254-0022-Setup.dct                -       -         -       2005-06-22  e6eae7c4a845b0d5004615178451cd9a
+
+    04254-0022-Setup.do                 -       -         -       2005-06-22  8e75f37a5b04333a3c3aae568958af4c
+
+    04254-0022-Setup.sas                -       -         -       2005-06-22  dc1c171184d9473dd7b5f06c5e90a5c3
+
+    04254-0022-Setup.sps                -       -         -       2005-06-22  fd9cc2fc4eb7df13d067b9b7d9d2ab56
+
+    04254-0022-Supplemental_syntax.do   -       -         -       2005-06-22  7df45e617cc5a0f6358bf1a09e6faa5d
+
+    04254-0022-Supplemental_syntax.sas  -       -         -       2005-06-22  970ea79a30ae9823628890b16152adf8
+

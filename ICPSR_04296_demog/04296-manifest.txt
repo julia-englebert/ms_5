@@ -1,0 +1,418 @@
+File Manifest for ICPSR 4296
+
+Gutmann, Myron P. Great Plains Population and Environment Data: Social and
+Demographic Data, 1870-2000 [United States]. ICPSR04296-v2. Ann Arbor, MI:
+Inter-university Consortium for Political and Social Research
+[distributor], 2007-02-07. http://doi.org/10.3886/ICPSR04296.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-descriptioncitation.pdf       -       -         -       2017-02-28  -
+
+    04296-related_literature.txt        -       -         -       daily       -
+
+    04296-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 1870 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0001-Codebook.pdf             -       -         -       2007-02-07  6fe84735217febd581c3c6d73a473b7f
+
+    04296-0001-Data.dta                 -       360       57      2005-10-10  fe05db39a8fd945e7908b3de106c18bf
+
+    04296-0001-Data.por                 -       360       57      2005-10-10  ce423ce1cf76cad8be9e4ab098591b12
+
+    04296-0001-Data.txt                 298     360       57      2005-10-10  46fc422682ee3ae0ab1b10368d294960
+
+    04296-0001-Data.xpt                 -       360       57      2005-10-10  97f0df7ce42a5a90d96de69f2b7af1d1
+
+    04296-0001-Setup.dct                -       -         -       2005-10-10  f5f8713cef571474c2dc3b25fee341b8
+
+    04296-0001-Setup.do                 -       -         -       2005-10-10  91d186160e668e85e586493df5d0d03c
+
+    04296-0001-Setup.sas                -       -         -       2005-10-10  ac1f727e4d2ed657f206113a82aab5fc
+
+    04296-0001-Setup.sps                -       -         -       2005-10-10  af25e601c8c67760db2d9620c2f831c5
+
+    04296-0001-Supplemental_syntax.do   -       -         -       2005-10-10  878249bfee30889181aa4594316c8823
+
+    04296-0001-Supplemental_syntax.sas  -       -         -       2005-10-10  9cc988f3fd693d8347f2a1c8be3d8837
+
+
+DS0002 1880 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0002-Codebook.pdf             -       -         -       2007-02-07  458f9fdef15000c0d0d739efe0f18ee8
+
+    04296-0002-Data.dta                 -       553       52      2005-10-10  31d0f814df0eafd49a49b76b90708013
+
+    04296-0002-Data.por                 -       553       52      2005-10-10  1cb28e5dd5c4c2e9d30d910435361c1e
+
+    04296-0002-Data.txt                 276     553       52      2005-10-10  8c3c96f9fa100391918433cf70e0c957
+
+    04296-0002-Data.xpt                 -       553       52      2005-10-10  36046c62ac2841bee34f0ce1e1c3d89c
+
+    04296-0002-Setup.dct                -       -         -       2005-10-10  ebd589f228386db4d12666d7407c8f36
+
+    04296-0002-Setup.do                 -       -         -       2005-10-10  49c6d639e29270428b542678132c8f70
+
+    04296-0002-Setup.sas                -       -         -       2005-10-10  b103c880cdabdcc46df8e56b1ebb1e18
+
+    04296-0002-Setup.sps                -       -         -       2005-10-10  a8af72f50b6fb96f71b55399a8db69b2
+
+    04296-0002-Supplemental_syntax.do   -       -         -       2005-10-10  77f2163215659da732b9ae9ca7d25d35
+
+    04296-0002-Supplemental_syntax.sas  -       -         -       2005-10-10  77fb90c33cea0378069c0f2e4aeaa7f4
+
+
+DS0003 1890 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0003-Codebook.pdf             -       -         -       2007-02-07  bfa56c0ffbaef390603c014f258d2b7e
+
+    04296-0003-Data.dta                 -       683       65      2005-10-10  71b1e17ff6cb8bdaf1e4859cde5ade18
+
+    04296-0003-Data.por                 -       683       65      2005-10-10  67d107c9ff37c6e843f526964253e806
+
+    04296-0003-Data.txt                 369     683       65      2005-10-10  282062f5b4e846cb7da298418c5b8da5
+
+    04296-0003-Data.xpt                 -       683       65      2005-10-10  bd28ca8c98d80d78896a679cd83297ce
+
+    04296-0003-Setup.dct                -       -         -       2005-10-10  48a98928c1543bd3b160844725fed122
+
+    04296-0003-Setup.do                 -       -         -       2005-10-10  f673c59e090330e84494042adce734f6
+
+    04296-0003-Setup.sas                -       -         -       2005-10-10  f6715733596ef7f085e57c10719cb6c1
+
+    04296-0003-Setup.sps                -       -         -       2005-10-10  54693c3ff3e2ba8358a649b63fa1d14b
+
+    04296-0003-Supplemental_syntax.do   -       -         -       2005-10-10  e5d258540c7a8b285b64d51569c81d2a
+
+    04296-0003-Supplemental_syntax.sas  -       -         -       2005-10-10  2a1dd510adbebc5a8734a94f5f4eb60c
+
+
+DS0004 1900 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0004-Codebook.pdf             -       -         -       2007-02-07  2bb112106ed3cd6a93bd8385aceacfcf
+
+    04296-0004-Data.dta                 -       706       67      2005-10-10  b755dcdfe0f42acdbe125f740d4ffc42
+
+    04296-0004-Data.por                 -       706       67      2005-10-10  0b5566629c067f25fdc6c1c8039cdecb
+
+    04296-0004-Data.txt                 381     706       67      2005-10-10  0d10513e50c2b7d12b7e0967e60fa6ef
+
+    04296-0004-Data.xpt                 -       706       67      2005-10-10  fa530dbfb0b0e88ac2c8c9d31b540e7d
+
+    04296-0004-Setup.dct                -       -         -       2005-10-10  28723e7b376c85bba8d4b0708557a343
+
+    04296-0004-Setup.do                 -       -         -       2005-10-10  2970325ef23830e9d493c8400c5dbb75
+
+    04296-0004-Setup.sas                -       -         -       2005-10-10  e2acf81090142dcd349f5f793c726b00
+
+    04296-0004-Setup.sps                -       -         -       2005-10-10  9151dd0340893659079ce9ced272d471
+
+    04296-0004-Supplemental_syntax.do   -       -         -       2005-10-10  79c068810610331995638c2921c1ed92
+
+    04296-0004-Supplemental_syntax.sas  -       -         -       2005-10-10  b56080d257f209b28294231f7a207eec
+
+
+DS0005 1910 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0005-Codebook.pdf             -       -         -       2007-02-07  e3a5eb321dd32ac4484f557fb592db20
+
+    04296-0005-Data.dta                 -       765       99      2005-10-10  ee1193134b9c207c408c61b6ea56519c
+
+    04296-0005-Data.por                 -       765       99      2005-10-10  e470d48d104eed15e09bbff0971b6f16
+
+    04296-0005-Data.txt                 578     765       99      2005-10-10  f02de3f888668f670fe63a738ec549db
+
+    04296-0005-Data.xpt                 -       765       99      2005-10-10  79e7110625223c4bcfddeacac4efe143
+
+    04296-0005-Setup.dct                -       -         -       2005-10-10  f7d4b44358adabf03b328ed335e73f92
+
+    04296-0005-Setup.do                 -       -         -       2005-10-10  07d85b778645ef8bb456514ce9cf096d
+
+    04296-0005-Setup.sas                -       -         -       2005-10-10  bd94fda5e52d567ee371514452ab6063
+
+    04296-0005-Setup.sps                -       -         -       2005-10-10  1d9fa3e116f9f8f76b7bd9a125245621
+
+    04296-0005-Supplemental_syntax.do   -       -         -       2005-10-10  73b9229eb5812a5bfb40fdacb16667e0
+
+    04296-0005-Supplemental_syntax.sas  -       -         -       2005-10-10  09c29298849648fbe9383094a7908c36
+
+
+DS0006 1920 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0006-Codebook.pdf             -       -         -       2007-02-07  8f220eaf843d5e11817c12be46060624
+
+    04296-0006-Data.dta                 -       816       92      2005-10-10  282d3942534cbfad4df7313ffe454cdc
+
+    04296-0006-Data.por                 -       816       92      2005-10-10  d4a3ffcc47228e6ecd9b7d0848f4a63c
+
+    04296-0006-Data.txt                 540     816       92      2005-10-10  e3acd594bcc2101a442062decc58693c
+
+    04296-0006-Data.xpt                 -       816       92      2005-10-10  c9deb176a7ba74a64013fa9f5138dba5
+
+    04296-0006-Setup.dct                -       -         -       2005-10-10  840c6f47ea03d519cbd3dea2a6153009
+
+    04296-0006-Setup.do                 -       -         -       2005-10-10  9baa4a1560fabd9f6d25a2303687d5c8
+
+    04296-0006-Setup.sas                -       -         -       2005-10-10  5187987a6245e829c2a6dae050d2db80
+
+    04296-0006-Setup.sps                -       -         -       2005-10-10  7f06724ef7fa4e5ce5b9a3c1873f241d
+
+    04296-0006-Supplemental_syntax.do   -       -         -       2005-10-10  fddca2664b0930ff7f77d71ff231e1de
+
+    04296-0006-Supplemental_syntax.sas  -       -         -       2005-10-10  d0d8c9e88e0f8f7d4534a1fd40513bf4
+
+
+DS0007 1930 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0007-Codebook.pdf             -       -         -       2007-02-07  6de7fbbd71126b595ef740fbebd7680b
+
+    04296-0007-Data.dta                 -       826       91      2005-10-10  e3cde5fa1dffbf467fa6ffddbfb1bded
+
+    04296-0007-Data.por                 -       826       91      2005-10-10  e15c829cb71cc02ab308c58c1b549423
+
+    04296-0007-Data.txt                 505     826       91      2005-10-10  d79b24c7c1528196513e3e545a632d47
+
+    04296-0007-Data.xpt                 -       826       91      2005-10-10  bb22dc2e7374819ff3cf4eacecb1508e
+
+    04296-0007-Setup.dct                -       -         -       2005-10-10  fb1bd33e8b0f83aa1388d7cf6a950227
+
+    04296-0007-Setup.do                 -       -         -       2005-10-10  4db44b51663b3b08387c32d7a546daab
+
+    04296-0007-Setup.sas                -       -         -       2005-10-10  8b37ab11207718eaeecb35f9ececb5f7
+
+    04296-0007-Setup.sps                -       -         -       2005-10-10  be0177ac6c829a20e0c249919f86f1e4
+
+    04296-0007-Supplemental_syntax.do   -       -         -       2005-10-10  ddf373ccb4336bf5f0014c15568a97a8
+
+    04296-0007-Supplemental_syntax.sas  -       -         -       2005-10-10  098ae5a1026769c3deefe7a5e7693c8e
+
+
+DS0008 1940 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0008-Codebook.pdf             -       -         -       2007-02-07  5703d5d077d2bb6e1d50aeca01cbaaa0
+
+    04296-0008-Data.dta                 -       826       113     2005-10-10  557e764f97c3a9f2bb355f92f4652750
+
+    04296-0008-Data.por                 -       826       113     2005-10-10  bc945e9cbbf6260dd8d20e244cf12cf0
+
+    04296-0008-Data.txt                 628     826       113     2005-10-10  b9bf9695a6ce8b72852690ab10c78577
+
+    04296-0008-Data.xpt                 -       826       113     2005-10-10  621d00483dbd443e6a77cd33aea0f7bd
+
+    04296-0008-Setup.dct                -       -         -       2005-10-10  3e546d60d3f06d464ed9ef3f4800222e
+
+    04296-0008-Setup.do                 -       -         -       2005-10-10  78233527fbde808a1d3315f8b3e695cb
+
+    04296-0008-Setup.sas                -       -         -       2005-10-10  b8efc263a91ee58fa4ff5913062a2419
+
+    04296-0008-Setup.sps                -       -         -       2005-10-10  c253e44c7bbc51cecc40b251dceae6cc
+
+    04296-0008-Supplemental_syntax.do   -       -         -       2005-10-10  5243a2953037c769b5d81374b9ee7f3f
+
+    04296-0008-Supplemental_syntax.sas  -       -         -       2005-10-10  bb9d093edd8b93246d5d5f6532c6cebf
+
+
+DS0009 1950 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0009-Codebook.pdf             -       -         -       2007-02-07  fd88a57c6cd8fb0001279cb1b6815850
+
+    04296-0009-Data.dta                 -       826       119     2005-10-10  9fed4b2c9a0cbbb401f3008a6e16d03e
+
+    04296-0009-Data.por                 -       826       119     2005-10-10  79c89542bf024dbcd7f047d6f8243cf5
+
+    04296-0009-Data.txt                 709     826       119     2005-10-10  6c8f61b24d8919790ad767b9fd6a6e1a
+
+    04296-0009-Data.xpt                 -       826       119     2005-10-10  4d7d6515a7623029d46286aaf4fe9ba9
+
+    04296-0009-Setup.dct                -       -         -       2005-10-10  b038e6daf18521a3adc95b090c9bbf20
+
+    04296-0009-Setup.do                 -       -         -       2005-10-10  a381d72930135b111c0f221d55166578
+
+    04296-0009-Setup.sas                -       -         -       2005-10-10  ce10962a00c54ffdd9144bb18653bcd4
+
+    04296-0009-Setup.sps                -       -         -       2005-10-10  972593b6e5a5ed1f4ad322fd54f250a0
+
+    04296-0009-Supplemental_syntax.do   -       -         -       2005-10-10  3c9db82e05d69b7b954ca685251dd0dd
+
+    04296-0009-Supplemental_syntax.sas  -       -         -       2005-10-10  b491715c56a7212125d69b3281f091f4
+
+
+DS0010 1960 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0010-Codebook.pdf             -       -         -       2007-02-07  2188611b7ea1ff1ce5a99b1150c1d20e
+
+    04296-0010-Data.dta                 -       835       123     2005-10-10  57134c95aa19b42880f1dc5b7060e88d
+
+    04296-0010-Data.por                 -       835       123     2005-10-10  b657c14256a6253d42f55fcea0ed0559
+
+    04296-0010-Data.txt                 785     835       123     2005-10-10  887d814e5241d30a2c16252cb8f2ff8c
+
+    04296-0010-Data.xpt                 -       835       123     2005-10-10  b58b69e60067471c4ae18d7f4b29c749
+
+    04296-0010-Setup.dct                -       -         -       2005-10-10  ac7c88c8fd1009ef9aa47355623724e9
+
+    04296-0010-Setup.do                 -       -         -       2005-10-10  fd7c579c7a744568763e3409b7e93709
+
+    04296-0010-Setup.sas                -       -         -       2005-10-10  e96d4296674238410ec7258f273dfecf
+
+    04296-0010-Setup.sps                -       -         -       2005-10-10  12993599d62b4b0546d5aafd0060f725
+
+    04296-0010-Supplemental_syntax.do   -       -         -       2005-10-10  6fe084f951cb0aadd4fff9c9f9d8fb09
+
+    04296-0010-Supplemental_syntax.sas  -       -         -       2005-10-10  efdaa9f09d61a71b8a1252f9bf108a52
+
+
+DS0011 1970 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0011-Codebook.pdf             -       -         -       2007-02-07  1399ede448c6d29ad516f6978b0a2948
+
+    04296-0011-Data.dta                 -       834       108     2005-10-10  e731ae4126f7c643acc94d188e82a4e8
+
+    04296-0011-Data.por                 -       834       108     2005-10-10  40b905995cc164ffd756154f9de838d2
+
+    04296-0011-Data.txt                 706     834       108     2005-10-10  898b5e71a8bef7352822ab958694bef0
+
+    04296-0011-Data.xpt                 -       834       108     2005-10-10  2958e4f336bfeeaf9f6d2fd587819917
+
+    04296-0011-Setup.dct                -       -         -       2005-10-10  2f4348401800cc9954021dd88d1e6d8b
+
+    04296-0011-Setup.do                 -       -         -       2005-10-10  21d8e688c794ffc63fe27887b6b2f08d
+
+    04296-0011-Setup.sas                -       -         -       2005-10-10  4622b9a8a7592adb15a80a3eb33816fa
+
+    04296-0011-Setup.sps                -       -         -       2005-10-10  23dddc10beb3e2213947a608c94b987a
+
+    04296-0011-Supplemental_syntax.do   -       -         -       2005-10-10  8274d043a9ecdc089ee7ef9c34de557f
+
+    04296-0011-Supplemental_syntax.sas  -       -         -       2005-10-10  b9ad6d2ff3826d8d299ae22323baae6f
+
+
+DS0012 1980 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0012-Codebook.pdf             -       -         -       2007-02-07  0fec6f33d3b8a9384d86ac740030698f
+
+    04296-0012-Data.dta                 -       833       100     2005-10-10  3ecb8a7c938db21ba751831a2074226d
+
+    04296-0012-Data.por                 -       833       100     2005-10-10  f2599878d7c935d21956b4bcc45fac28
+
+    04296-0012-Data.txt                 686     833       100     2005-10-10  d6a7fe80823cd8d46f800d24cac479de
+
+    04296-0012-Data.xpt                 -       833       100     2005-10-10  5fa17463c480f9c46d7972678240131f
+
+    04296-0012-Setup.dct                -       -         -       2005-10-10  3da1aef7d1cec1db34ed5f64ce41d39f
+
+    04296-0012-Setup.do                 -       -         -       2005-10-10  8f5d6a7e44f7e77c4de07fa6d4054290
+
+    04296-0012-Setup.sas                -       -         -       2005-10-10  c04d637217bf09b48fc56ef33e64bdf3
+
+    04296-0012-Setup.sps                -       -         -       2005-10-10  45fc2018920f2f6f4072fe7c34a6b3f1
+
+    04296-0012-Supplemental_syntax.do   -       -         -       2005-10-10  ee3e8e17059f53cd5213af657f7295cc
+
+    04296-0012-Supplemental_syntax.sas  -       -         -       2005-10-10  8833c790423a81a17c66e2f3f38169c4
+
+
+DS0013 1990 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0013-Codebook.pdf             -       -         -       2007-02-07  e906b2a50f482cb6514e77eefc736a18
+
+    04296-0013-Data.dta                 -       834       116     2005-10-10  0e9976a5a8ea450cc1e174fc14f2edd7
+
+    04296-0013-Data.por                 -       834       116     2005-10-10  bd7d515648b60b2d40b16ce728d5ff32
+
+    04296-0013-Data.txt                 806     834       116     2005-10-10  05d7886f9207da5b5957725c8b7ef94a
+
+    04296-0013-Data.xpt                 -       834       116     2005-10-10  b6fe5d5cea40698d6c2bad1cdf2ecaa4
+
+    04296-0013-Setup.dct                -       -         -       2005-10-10  cface2a1910361726bd1727069bfb23a
+
+    04296-0013-Setup.do                 -       -         -       2005-10-10  98ecd693f8f1f91e6bd63cbc379bab86
+
+    04296-0013-Setup.sas                -       -         -       2005-10-10  a5662e4b44805c0d0a3d81690efca28e
+
+    04296-0013-Setup.sps                -       -         -       2005-10-10  a484a3227045ef447929832fb3fb9d2a
+
+    04296-0013-Supplemental_syntax.do   -       -         -       2005-10-10  fc0b29cc16d193ccca9c60632f348d59
+
+    04296-0013-Supplemental_syntax.sas  -       -         -       2005-10-10  5b4d75b37d4bf6c6cda1b953af515746
+
+
+DS0014 2000 Social and Demographic Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04296-0014-Codebook.pdf             -       -         -       2007-02-07  b515f8cea37b463d4dc88f5d7487a501
+
+    04296-0014-Data.dta                 -       834       103     2005-10-10  cd9788e249edf563eb7f17e2a14456cd
+
+    04296-0014-Data.por                 -       834       103     2005-10-10  6b9c7e9c870b1bf92abcebac419889c4
+
+    04296-0014-Data.txt                 737     834       103     2005-10-10  86d9cab68bc6fde9b8661e3356808ec7
+
+    04296-0014-Data.xpt                 -       834       103     2005-10-10  3ebee401b087d6d1bef4811e413ac15c
+
+    04296-0014-Setup.dct                -       -         -       2005-10-10  5fe113e2108b2eb5f5a72c01afac4746
+
+    04296-0014-Setup.do                 -       -         -       2005-10-10  800605a27d57a6591d9268952344cace
+
+    04296-0014-Setup.sas                -       -         -       2005-10-10  16e16a8be9e87ad742bc9de7bd6907e3
+
+    04296-0014-Setup.sps                -       -         -       2005-10-10  819660571a604dbe9d699e4a9f1c8d4c
+
+    04296-0014-Supplemental_syntax.do   -       -         -       2005-10-10  39fca730bae2b6863d070a865b9120b6
+
+    04296-0014-Supplemental_syntax.sas  -       -         -       2005-10-10  d575bed9f9c7bba9a478abdf4a2d4ee2
+
+
+Version History
+
+2007-02-07 The industry variable descriptions were replaced in the
+codebooks with updated material.

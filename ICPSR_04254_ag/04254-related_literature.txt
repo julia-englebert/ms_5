@@ -1,0 +1,355 @@
+Bibliography
+Great Plains Population and Environment Data: Agricultural Data, 1870-1997
+[United States]
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 4254. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Balkan, J.L., "Does Population Size Matter to Agricultural Land Use? A
+Focus on the Great Plains." Thesis, University of Texas, 1997.
+
+2. Bolles, Kasey C.; Forman, Steven L., "Evaluating landscape degradation
+along climatic gradients during the 1930s dust bowl drought from
+panchromatic historical aerial photographs, United States Great Plains."
+Frontiers in Earth Science. Oct 2018, 6, (153), 1 - 22. DOI:
+10.3389/feart.2018.00153
+
+3. Bolles, Kasey; Forman, Steven L; Sweeney, Mark, "Eolian processes and
+heterogeneous dust emissivity during the 1930s Dust Bowl Drought and
+implications for projected 21st-century megadroughts." The Holocene. 2017,.
+DOI: 10.1177/0959683617702235
+
+4. Burke, Ingrid C.; Lauenroth, William K.; Cunfer, Geoff; Berrett, John
+E.; Mosier, Arvin; Lowe, Petra, "Nitrogen in the Central Grasslands Region
+of the United States." BioScience. Sep 2002, 52, (9), 813 - 823. DOI:
+10.1641/0006-3568(2002)052[0813:NITCGR]2.0.CO;2
+
+5. Cunfer, Geoff, "Causes of the Dust Bowl." In Knowles, Anne, Past Time,
+Past Place: GIS for History. Redlands, CA: ESRI,2002.
+
+6. Cunfer, Geoff, "Manure Matters on the Great Plains Frontier." Journal of
+Interdisciplinary History. Spr 2004, 34, (4), 539 - 567. DOI:
+10.1162/002219504773512534
+
+7. Cunfer, Geoff, "New Deal's Land Utilization Program in the Great
+Plains." Great Plains Quarterly. 2001, 21, (3), 193 - 210.
+
+8. Cunfer, Geoff, On the Great Plains: Agriculture and Environment. College
+Station, TX: Texas A&M University Press, 2005.
+
+9. Cunfer, Geoff, "Scaling the dust bowl." In Knowles, Anne K.; Hiller,
+Amy, Placing History: How Maps, Spatial Data, and GIS are Changing
+Historical Scholarship. 95 - 121, Redlands, CA: ESRI Press,2008.
+
+10. Cunfer, Geoff; Krausmann, Fridolin, "Adaptation on an agricultural
+frontier: Socio-ecological profiles of Great Plains settlement, 1870-1940."
+Journal of Interdisciplinary History. Win 2016, XLVI, (3), 355 - 392. DOI:
+10.1162/JINH_a_00868
+
+11. Cunfer, Geoffry A., "Common Ground: The American Grassland, 1870-1970."
+Dissertation, University of Texas at Austin, 1999.
+
+12. Edwards, Eric C., "What lies beneath? Aquifer heterogeneity and the
+economics of groundwater management." Journal of the Association of
+Environmental and Resource Economists. Jun 2016, 3, (2), 453 - 491. DOI:
+10.1086/685389
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+13. Edwards, Eric Charles, "Three Essays on the Economics of Groundwater
+Management Institutions." Dissertation, University of California, Santa
+Barbara, 2014.
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+14. Gido, Keith B.; Dodds, Walter K.; Eberle, Mark E., "Retrospective
+analysis of fish community change during a half-century of landuse and
+streamflow changes." Journal of the North American Benthological Society.
+2010, 29, (3), 970 - 987. DOI: 10.1899/09-116.1
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+15. Gutmann, Myron P., "Beyond Social Science History: Population and
+Environment in the US Great Plains." Social Science History. Spr 2018, 42,
+(1), 1 - 27. DOI: 10.1017/ssh.2017.43
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+16. Gutmann, Myron P., Great Plains Population and Environment Database,
+Version 1.0: User's Guide. Austin, TX: University of Texas-Austin, 1998.
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+17. Gutmann, Myron P., "Scaling and Demographic Issues in Global Change
+Research: The Great Plains, 1880-1990." Climatic Change. Feb 2000, 44, (3),
+377 - 391. DOI: 10.1023/A:1005624816499
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+18. Gutmann, Myron P.; Cunfer, Geoff, A New Look at the Causes of the Dust
+Bowl. Charles L. Wood Agricultural History Lecture Series 99-1. Lubbock,
+TX: International Center for Arid and Semiarid Land Studies, 1999.
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+19. Gutmann, Myron P.; Deane, Glenn D.; Witkowski, Kristine, "Finding
+frontiers in the U.S. Great Plains from the end of the Civil War to the eve
+of the Great Depression." In Gutmann, Myron P.; Deane, Glenn D.; Merchant,
+Emily R.; Sylvester, Kenneth M., Navigating Time and Space in Population
+Studies. International Studies in Population, Vol. 9. 161 - 183, New York,
+NY: Springer,2011. DOI: 10.1007/978-94-007-0068-0_7
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+20. Gutmann, Myron P.; Parton, William J.; Cunfer, Geoff; Burke, Ingrid C.,
+"Population and environment in the U.S. Great Plains." In New Research on
+Population and Environment. Washington, DC: National Academy Press,2005.
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+21. Gutmann, Myron P.; Pullum, Sara M., "From local to national political
+cultures: Social capital and civic organization in the Great Plains."
+Journal of Interdisciplinary History. Spr 1999, 24, (4), 725 - 762. DOI:
+10.1162/002219599551877
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+22. Gutmann, Myron P.; Pullum-Pinon, Sara M.; Baker, Susan Gonzalez; Burke,
+Ingrid C., "German-Origin Settlement and Agricultural Land Use in the
+Twentieth Century Great Plains." In Kamphoefner, Walter D.; Helbich,
+Wolfgang, German-American Immigration and Ethnicity in Comparative
+Perspective. 136 - 168, Madison, WI: Max Kade Institute for German American
+Studies,2004.
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+23. Gutmann, Myron P.; Pullum-Pinon, Sara M.; Pullum, Tom W., "Three eras
+of young adult home-leaving in Twentieth-Century America." Journal of
+Social History. Spr 2002, 35, (3), 533 - 576. DOI: 10.1353/jsh.2002.0014
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+24. Hansen, Zeynep K.; Libecap, Gary D., "Small Farms, Externalities, and
+the Dust Bowl of the 1930s." Journal of Political Economy. Jun 2004, 112,
+(3), 665 - 694. DOI: 10.1086/383102
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+25. Hartman, Melannie D.; Merchant, Emily R.; Parton, William J.; Gutmann,
+Myron P.; Lutz, Susan M.; Williams, Stephen A., "Impact of historical land-
+use changes on greenhouse gas exchange in the U.S. Great Plains, 1883-
+2003." Ecological Applications. 2011, 21, (4), 1105 - 1119. DOI:
+10.1890/10-0036.1
+Full text PDF: http://www2.bren.ucsb.edu/~eredwards/Edwards_JMP_Kansas.pdf
+
+26. Hornbeck, Richard, "Barbed Wire: Property Rights and Agricultural
+Development." Cambridge, MA: Harvard University, Jul 2009..
+Full text PDF: http://environment.harvard.edu/docs/faculty_pubs/hornbeck_barbedwire.pdf
+
+27. Hornbeck, Richard, "Barbed wire: Property rights and qgricultural
+development." Quarterly Journal of Economics. 2010, 125, (2), 767 - 810.
+DOI: 10.1162/qjec.2010.125.2.767
+Full text PDF: http://environment.harvard.edu/docs/faculty_pubs/hornbeck_barbedwire.pdf
+
+28. Hornbeck, Richard, "Good Fences Make Good Neighbors: Evidence on the
+Effects of Property Rights." Boston, MA: Boston University, Mar 2008..
+Full text PDF: http://environment.harvard.edu/docs/faculty_pubs/hornbeck_barbedwire.pdf
+
+29. Hornbeck, Richard, "Nature versus nurture: The environment's persistent
+influence through the modernization of American agriculture." American
+Economic Review. May 2012, 102, (3), 245 - 249. DOI: 10.1257/aer.102.3.245
+Full text PDF: http://environment.harvard.edu/docs/faculty_pubs/hornbeck_barbedwire.pdf
+
+30. Hornbeck, Richard, "The Enduring Impact of the American Dust Bowl:
+Short and Long-run Adjustments to Environmental Catastrophe." NBER Working
+Paper No. 15605. Cambridge, MA: National Bureau of Economic Research, Dec
+2009. DOI: 10.3386/w15605
+Full text PDF: http://www.nber.org/papers/w15605.pdf
+
+31. Hornbeck, Richard, "The enduring impact of the American dust bowl:
+Short- and long-run adjustments to environmental catastrophe." American
+Economic Review. Jun 2012, 102, (4), 1477 - 1507. DOI:
+10.1257/aer.102.4.1477
+Full text PDF: http://www.nber.org/papers/w15605.pdf
+
+32. Hornbeck, Richard A., "Essays on the Development of the American
+Economy." Dissertation, Massachusetts Institute of Technology, 2009.
+Full text PDF: http://www.nber.org/papers/w15605.pdf
+
+33. Hornbeck, Richard; Keskin, Pinar, "Does agriculture generate local
+economic spillovers? Short-run and long-run evidence from the Ogallala
+Aquifer." American Economic Journal: Economic Policy. May 2015, 7, (2), 192
+- 213. DOI: 10.1257/pol.20130077
+Full text PDF: http://www.nber.org/papers/w15605.pdf
+
+34. Hornbeck, Richard; Keskin, Pinar, "The historically evolving impact of
+the Ogallala Aquifer: Agricultural adaptation to groundwater and drought."
+American Economic Journal: Applied Economics. Jan 2014, 6, (1), 190 - 219.
+DOI: 10.1257/app.6.1.190
+Full text PDF: http://www.nber.org/papers/w15605.pdf
+
+35. Houston, Natalie A.; Gonzales-Bradford, Sophia L.; Flynn, Amanda T.;
+Qi, Sharon L.; Peterson, Steven M.;  Stanton, Jennifer S.; Ryter, Derek W.;
+Sohl, Terry L.; Senay, Gabriel B., "Geodatabase Compilation of
+Hydrogeologic, Remote Sensing, and Water-Budget-Component Data for the High
+Plains Aquifer, 2011." Groundwater Resources Program Data Series 777.
+Reston, VA: United States Department of the Interior, United States
+Geological Survey, 2013.
+Abstract: http://pubs.usgs.gov/ds/777/
+Full text: http://pubs.usgs.gov/ds/777
+Full text PDF: http://pubs.usgs.gov/ds/777/pdf/ds777.pdf
+
+36. Hu, Qi; Torres-Alavez, Jose Abraham; Van Den Broeke, Matthew S., "Land-
+Cover change and the 'Dust Bowl' drought in the U.S. Great Plains." Journal
+of Climate. Jun 2018, 31, (12), 4657 - 4667. DOI: 10.1175/JCLI-D-17-0515.1
+Abstract: http://pubs.usgs.gov/ds/777/
+Full text: http://pubs.usgs.gov/ds/777
+Full text PDF: http://pubs.usgs.gov/ds/777/pdf/ds777.pdf
+
+37. Lackett, J., "New Measures of Conservation in Weld County, Colorado
+Agriculture." Thesis, Colorado State University, 1998.
+Abstract: http://pubs.usgs.gov/ds/777/
+Full text: http://pubs.usgs.gov/ds/777
+Full text PDF: http://pubs.usgs.gov/ds/777/pdf/ds777.pdf
+
+38. Lackett, Jill M.; Hobbs, N. Thompson, "Land use, fragmentation, and
+impacts on wildlife in Jackson Valley, Wyoming, USA." In Galvin, Kathleen
+A.; Reid, Robin S.; Behnke, Roy H., Jr.; Hobbs, N. Thompson, Fragmentation
+in Semi-Arid and Arid Landscapes. 135 - 150, Dordrecht, The Netherlands:
+Springer,2008.
+Abstract: http://pubs.usgs.gov/ds/777/
+Full text: http://pubs.usgs.gov/ds/777
+Full text PDF: http://pubs.usgs.gov/ds/777/pdf/ds777.pdf
+
+39. Lauenroth, William K.; Burke, Ingrid C.; Gutmann, Myron P., "The
+structure and function of ecosystems in the central North American
+grassland region." Great Plains Research. Fal 1999, 9, 223 - 259.
+Abstract: http://pubs.usgs.gov/ds/777/
+Full text: http://pubs.usgs.gov/ds/777
+Full text PDF: http://pubs.usgs.gov/ds/777/pdf/ds777.pdf
+
+40. Leonard, Susan H.; Gutmann, Myron P.; Deane, Glenn D.; Sylvester,
+Kenneth M., "Drought and the Lifecycle/Landuse Trajectory in Agricultural
+Households." Presented at the Proceedings of the IUSSP Seminar,
+International Union for the Scientific Study of Population, Kashiwa, Japan,
+May 21-23, 2009.
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+41. Leonard, Susan Hautaniemi; Gutmann, Myron P., "Isolated elderly in the
+U.S. Great Plains: The roles of environment and demography in creating a
+vulnerable population." Annales de Demographie Historique. 2005, 110, (2),
+81 - 108.
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+42. Macfadyen, Joshua D., "Breaking sod or breaking even? Flax on the
+northern great plains and prairies, 1889-1930." Agricultural History. Spr
+2009, 83, (2), 221 - 246. DOI: 10.3098/ah.2009.83.2.221
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+43. Maxwell, Susan K.; Sylvester, Kenneth M., "Identification of 'ever-
+cropped' land (1984-2010) using Landsat annual maximum NDVI image
+composites: Southwestern Kansas case study." Remote Sensing of Environment.
+Jun 2012, 121, 186 - 195. DOI: 10.1016/j.rse.2012.01.022
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+44. Parton, W.J.; Gutmann, M.P.; Hartman, M.D.; Merchant, E.R.; Lutz, S.M.;
+Del Grosso, S.J., "Simulated biogeochemical impacts of historical land-use
+changes in the U.S. Great Plains from 1870 to 2003." In Brown, D.G.;
+Robinson, D.T.; French, N.H.F.; Reed, B.C., Land Use and the Carbon Cycle:
+Advances in Integrated Science, Management, and Policy. 287 - 304,
+Cambridge: Cambridge University Press,2009. DOI:
+10.1017/CBO9780511894824.015
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+45. Parton, William J.; Gutmann, Myron P.; Merchant, Emily R.; Hartman,
+Melannie D.; Adler, Paul R.; McNeal, Frederick M.; Lutz, Susan M.,
+"Measuring and mitigating agricultural greenhouse gas production in the US
+Great Plains, 1870-2000." Proceedings of the National Academy of Sciences
+of the United States of America. Aug 2015, 112, (134), e4681 - e4688. DOI:
+10.1073/pnas.1416499112
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+46. Parton, William J.; Gutmann, Myron P.; Ojima, Dennis, "Long-term trends
+in population, farm income, and crop production in the Great Plains."
+BioScience. Oct 2007, 57, (9), 737 - 747. DOI: 10.1641/B570906
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+47. Parton, William J.; Gutmann, Myron P.; Travis, William R.,
+"Sustainability and historical land-use change in the Great Plains: The
+case of Eastern Colorado." Great Plains Research. 2003, 13, (1), 97 - 125.
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+48. Parton, William J.; Gutmann, Myron P.; Williams, Stephen A.; Easter,
+Mark; Ojima, Dennis, "Ecological impact of historical land-use patterns in
+the Great Plains: A methodological assessment." Ecological Applications.
+2005, 15, (6), 1915 - 1928. DOI: 10.1890/04-1392
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+49. Polsky, Colin, "Putting Space and Time in Ricardian Climate Change
+Impact Studies: Agriculture in the U.S. Great Plains, 1969-1992." Annals of
+the Association of American Geographers. Sep 2004, 94, (3), 549 - 564. DOI:
+10.1111/j.1467-8306.2004.00413.x
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+50. Polsky, Colin D., "A Spatio-temporal Analysis of Agricultural
+Vulnerability to Climate Change: The United States Great Plains, 1969--
+1992." Dissertation, Pennsylvania State University, 2002.
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+51. Polsky, Colin; Easterling, William E., III, "Adaptation to climate
+variability and change in the US Great Plains: A multi-scale analysis of
+Ricardian climate sensitivities." Agriculture, Ecosystems, and Environment.
+Jun 2001, 85, (1-3), 133 - 144. DOI: 10.1016/S0167-8809(01)00180-3
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+52. Sheflin, Douglas, "Dust, Rain, and War: Land Use and Labor on the
+Colorado Plains from 1929 to 1945." Thesis, University of Colorado at
+Boulder, 2012.
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+53. Smith, Steven M., "Disturbances to Irrigation Systems in the American
+Southwest: Assessing the Performance of Acequias Under Various Governance
+Structures, Property Rghts, and New Entrants." Dissertation, University of
+Colorado at Boulder, 2014.
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+54. Smith, Steven M., "From decentralized to centralized irrigation
+management." Journal of Economic Behavior and Organization. Jul 2018, 151,
+62 - 87. DOI: 10.1016/j.jebo.2018.04.003
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+55. Sylvester, K.M.; Gutmann, M.P.; Brown, D.G., "At the margins:
+Agriculture, subsidies and the shifting fate of North America's native
+grassland." Population and Environment. in press 2015,. DOI:
+10.1007/s11111-015-0242-7
+Full text PDF: http://www.iussp.org/members/restricted/publications/Kashiwa09/AllArticles.pdf
+
+56. Sylvester, Kenneth M., "Ecological frontiers on the grasslands of
+Kansas: Changes in farm scale and crop diversity." Journal of Economic
+History. Dec 2009, 69, (4), 1041 - 1062. DOI: 10.1017/S0022050709001375
+Full text PDF: http://journals.cambridge.org/action/displayFulltext?type=1&fid=6586564&jid=JEH&volumeId=69&issueId=04&aid=6586556&bodyId=&membershipNumber=&societyETOCSession=
+
+57. Sylvester, Kenneth M.; Gutmann, Myron P., "Dustbowl Legacies: Long Term
+Change and Resilience in the Shortgrass Steppe." Arizona State University
+Working Paper, Phoenix, AZ: Arizona State University, 2008..
+Full text PDF: http://sustainability.asu.edu/docs/agtrans/SGSnarrativedraft.pdf
+
+58. Sylvester, Kenneth; Cunfer, Geoff, "An unremembered diversity: Mixed
+husbandry and the American grasslands." Agricultural History. Sum 2009, 83,
+(3), 352 - 383. DOI: 10.3098/ah.2009.83.3.352
+Full text PDF: http://sustainability.asu.edu/docs/agtrans/SGSnarrativedraft.pdf
+
+59. Torres-Alavez, Jose Abraham, "Quantifying the Relative Roles of Land
+Use Change and Remote Forcing on the 1930s Dust Bowl Drought."
+Dissertation, The University of Nebraska-Lincoln, 2018.
+Full text PDF: http://sustainability.asu.edu/docs/agtrans/SGSnarrativedraft.pdf
+
+60. Uden, Daniel Robert, "Social-Ecological Causes and Consequences of
+Landcover Change in Landscapes of Nebraska, USA." Dissertation, University
+of Nebraska, 2017.
+Full text PDF: http://sustainability.asu.edu/docs/agtrans/SGSnarrativedraft.pdf
+
+61. White, Samuel; Sylvester, Kenneth M.; Tucker, Richard, "North American
+climate history." In Sommer, Bernd, Cultural Dynamics of Climate Change and
+the Environment in Northern America. 109 - 136, Leiden, The Netherlands:
+Koninklijke Brill,2015.
+Full text PDF: http://sustainability.asu.edu/docs/agtrans/SGSnarrativedraft.pdf
+
+62. Wuthnow, Robert, "Recovering from the Great Depression." In Remaking
+the Heartland: Middle America Since the 1950s. 22 - 56, Princeton, NJ:
+Princeton University Press,2010.
+Full text PDF: http://sustainability.asu.edu/docs/agtrans/SGSnarrativedraft.pdf

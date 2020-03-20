@@ -1,0 +1,261 @@
+---
+title: "Final Project Milestone 5"
+author: "Julia Englebert"
+date: "3/20/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(haven)
+library(tidyverse)
+library(gt)
+library(devtools)
+library(tibble)
+library(foreign)
+```
+
+```{r read_ag, include=FALSE}
+# Reading in all of my ag files
+
+# 1870-1997
+# Ag data
+
+# Used AFP_XX_V as opposed to STK_XX_V, FRU_XX_V, GDN_XX_V, FST_XX_V
+tbl_1 <- read_por("ICPSR_04254_ag/DS0001/04254-0001-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, PRP_XX_V, IMP_XX_V, AFP_XX_V)) %>%
+  rename(name = NAME, fips = UNFIPS, land_in_farms = FML_XX_A, total_area = ARE_XX_A, num_farms = FRM_XX_Q, value_farms = PRP_XX_V, value_implements = IMP_XX_V, value_production_betterments_stocks = AFP_XX_V)
+
+tbl_2 <- read_por("ICPSR_04254_ag/DS0002/04254-0002-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, PRP_XX_V, IMP_XX_V, AFP_XX_V)) %>%
+  rename(name = NAME, fips = UNFIPS, land_in_farms = FML_XX_A, total_area = ARE_XX_A, num_farms = FRM_XX_Q, value_farms = PRP_XX_V, value_implements = IMP_XX_V, value_production_betterments_stocks = AFP_XX_V)
+
+tbl_3 <- read_por("ICPSR_04254_ag/DS0003/04254-0003-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, PRP_XX_V, IMP_XX_V, AFP_XX_V))%>%
+  rename(name = NAME, fips = UNFIPS, land_in_farms = FML_XX_A, total_area = ARE_XX_A, num_farms = FRM_XX_Q, value_farms = PRP_XX_V, value_implements = IMP_XX_V, value_production_betterments_stocks = AFP_XX_V)
+
+# Some columns are changed past this point
+# PRP_XX_V => PRP_OF_V
+# IMP_XX_V => IMP_OF_V
+# STK_XX_V, FRU_XX_V, GDN_XX_V, FST_XX_V => STK_XX_V, CRO_XX_V (livestock, crop values)
+
+# For tbl_4
+# PRP_XX_V => FML_XX_V + BLD_XX_V
+# STK_XX_V: Value of Farm Property: Live Stock: Dollars
+# AFP_XQ_V: Products not fed to animals
+
+tbl_4 <- read_por("ICPSR_04254_ag/DS0004/04254-0004-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, FML_XX_V, BLD_XX_V, IMP_XX_V, STK_XX_V, AFP_XQ_V))%>%
+  rename(name = NAME, fips = UNFIPS, land_in_farms = FML_XX_A, total_area = ARE_XX_A, num_farms = FRM_XX_Q, value_implements = IMP_XX_V, value_livestock = STK_XX_V, value_productsNotFed = AFP_XQ_V) %>%
+  mutate(value_farms = FML_XX_V + BLD_XX_V) %>%
+    select(name, fips, land_in_farms, total_area, num_farms, value_farms, value_implements, value_livestock, value_productsNotFed)
+
+# Some columns are changed past this point
+# PRP_XX_V => PRP_OF_V
+# IMP_XX_V => IMP_OF_V
+# STK_XX_V, FRU_XX_V, GDN_XX_V, FST_XX_V => STK_XX_V, CRO_XX_V (livestock, crop values)
+
+# For tbl_4
+# PRP_XX_V => FML_XX_V + BLD_XX_V
+# STK_XX_V: Value of Farm Property: Live Stock: Dollars
+# AFP_XQ_V: Products not fed to animals
+
+# Livestock value data is missing for this year tbl_5
+tbl_5 <- read_por("ICPSR_04254_ag/DS0005/04254-0005-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, PRP_OF_V, IMP_XX_V, CRO_XX_V)) %>%
+    rename(name = NAME, fips = UNFIPS, land_in_farms = FML_XX_A, total_area = ARE_XX_A, num_farms = FRM_XX_Q, value_implements = IMP_XX_V, value_crops = CRO_XX_V) %>%
+  
+  # PRP_OF_V is specifically "Farms Operated by Owners: Value of Land and Buildings: Dollars"
+  
+  mutate(value_farms = PRP_OF_V) %>%
+  mutate(value_livestock = "NA", value_productsNotFed = "NA") %>%
+    select(name, fips, land_in_farms, total_area, num_farms, value_farms, value_implements, value_livestock, value_productsNotFed)
+
+tbl_6 <- read_por("ICPSR_04254_ag/DS0006/04254-0006-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, PRP_OF_V, IMP_XX_V, CRO_XX_V, STK_XX_V)) %>%
+    rename(name = NAME, fips = UNFIPS, land_in_farms = FML_XX_A, total_area = ARE_XX_A, num_farms = FRM_XX_Q, value_implements = IMP_XX_V, value_crops = CRO_XX_V, value_livestock = STK_XX_V) %>%
+  mutate(value_farms = PRP_OF_V + value_livestock) %>%
+  mutate(value_productsNotFed = "NA") %>%
+    select(name, fips, land_in_farms, total_area, num_farms, value_farms, value_implements, value_livestock, value_productsNotFed)
+
+# Total cash value of farm PRP_XX_V missing for tbl_7
+tbl_7 <- read_por("ICPSR_04254_ag/DS0007/04254-0007-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, IMP_XX_V, CRO_XX_V, STK_XX_V)) %>%
+    rename(name = NAME, fips = UNFIPS, land_in_farms = FML_XX_A, total_area = ARE_XX_A, num_farms = FRM_XX_Q, value_implements = IMP_XX_V, value_crops = CRO_XX_V, value_livestock = STK_XX_V) %>%
+  mutate(value_farms = value_implements + value_crops + value_livestock) %>%
+  mutate(value_productsNotFed = "NA") %>%
+    select(name, fips, land_in_farms, total_area, num_farms, value_farms, value_implements, value_livestock, value_productsNotFed)
+
+tbl_8 <- read_por("ICPSR_04254_ag/DS0008/04254-0008-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, PRP_OF_V, IMP_XX_V, CRO_XX_V, STK_XX_V)) %>%
+    rename(name = NAME, fips = UNFIPS, land_in_farms = FML_XX_A, total_area = ARE_XX_A, num_farms = FRM_XX_Q, value_implements = IMP_XX_V, value_crops = CRO_XX_V, value_livestock = STK_XX_V) %>%
+  mutate(value_farms = value_implements + value_crops + value_livestock) %>%
+  mutate(value_productsNotFed = "NA") %>%
+    select(name, fips, land_in_farms, total_area, num_farms, value_farms, value_implements, value_livestock, value_productsNotFed)
+
+
+
+# PICK UP HERE
+
+# Limited data for tbl_9
+tbl_9 <- read_por("ICPSR_04254_ag/DS0009/04254-0009-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q))
+
+tbl_10 <- read_por("ICPSR_04254_ag/DS0010/04254-0010-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, PRP_OF_V, IMP_OF_V, CRO_XX_V, STK_XX_V))
+
+# Limited data for tbl_9
+tbl_11 <- read_por("ICPSR_04254_ag/DS0011/04254-0011-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, IMP_XX_V))
+
+# PRP_XX_V => PRP_AX_V * FRM_XX_Q (average value of farm * number of farms)
+# Missing IMP_XX_V
+# Used AFP_TX_V instead of CRO_XX_V, STK_XX_V
+tbl_12 <- read_por("ICPSR_04254_ag/DS0012/04254-0012-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, PRP_AX_V, AFP_TX_V))
+
+# PRP_XX_V and IMP_XX_V unknown
+# CRO_XX_V, STK_XX_V => AFP_TX_V (all prducts sold)
+tbl_13 <- read_por("ICPSR_04254_ag/DS0013/04254-0013-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_SA_Q:FRM_SL_Q, AFP_TX_V))
+
+# PRP_XX_V and IMP_XX_V unknown
+# CRO_XX_V, STK_XX_V => AFP_TX_V (all prducts sold)
+tbl_14 <- read_por("ICPSR_04254_ag/DS0014/04254-0014-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, AFP_TX_V))
+
+# Same comments as above
+# AFP_TX_V = all products sold
+tbl_15 <- read_por("ICPSR_04254_ag/DS0015/04254-0015-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, AFP_TX_V))
+
+tbl_16 <- read_por("ICPSR_04254_ag/DS0016/04254-0016-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, AFP_TX_V))
+
+tbl_17 <- read_por("ICPSR_04254_ag/DS0017/04254-0017-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, AFP_TX_V))
+tbl_18 <- read_por("ICPSR_04254_ag/DS0018/04254-0018-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, AFP_TX_V))
+tbl_19 <- read_por("ICPSR_04254_ag/DS0019/04254-0019-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, AFP_TX_V))
+tbl_20 <- read_por("ICPSR_04254_ag/DS0020/04254-0020-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, AFP_TX_V))
+tbl_21 <- read_por("ICPSR_04254_ag/DS0021/04254-0021-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, AFP_TX_V))
+tbl_22 <- read_por("ICPSR_04254_ag/DS0022/04254-0022-Data.por", col_select = c(NAME, UNFIPS, FML_XX_A, ARE_XX_A, FRM_XX_Q, AFP_TX_V))
+```
+
+```{r read_demog, include=FALSE}
+# Reading in all of demog files
+# 1870-2000
+
+tbl_1_d <- read_por("ICPSR_04296_demog/DS0001/04296-0001-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29, POP10P, SCH)) %>%
+  rename(name = NAME, fips = UNFIPS, total = TTOT, people_over_10 = POP10P, pupils_in_school = SCH) %>%
+  mutate(fem_5_24 = FT5_9 + FT10_14 + FT15_19 + FT20_24, mal_5_24 = MT5_9 + MT10_14 + MT15_19 + MT20_24)
+
+# Very little school enrollment data for this year
+tbl_2_d <- read_por("ICPSR_04296_demog/DS0002/04296-0002-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29)) %>%
+  rename(name = NAME, fips = UNFIPS, total = TTOT) %>%
+  mutate(fem_5_24 = FT5_9 + FT10_14 + FT15_19 + FT20_24, mal_5_24 = MT5_9 + MT10_14 + MT15_19 + MT20_24, pupils_in_school = "NA")
+
+# NOTSCH Persons age 3 and over who are enrolled in school
+tbl_3_d <- read_por("ICPSR_04296_demog/DS0003/04296-0003-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29, SCH)) %>%
+  rename(name = NAME, fips = UNFIPS, total = TTOT, pupils_in_school = SCH) %>%
+  mutate(fem_5_24 = FT5_9 + FT10_14 + FT15_19 + FT20_24, mal_5_24 = MT5_9 + MT10_14 + MT15_19 + MT20_24)
+
+# No school data
+tbl_4_d <- read_por("ICPSR_04296_demog/DS0004/04296-0004-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29)) %>%
+  rename(name = NAME, fips = UNFIPS, total = TTOT) %>%
+  mutate(fem_5_24 = FT5_9 + FT10_14 + FT15_19 + FT20_24, mal_5_24 = MT5_9 + MT10_14 + MT15_19 + MT20_24, pupils_in_school = "NA")
+
+tbl_5_d <- read_por("ICPSR_04296_demog/DS0005/04296-0005-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29, SCH69, SCH1014, SCH1517, SCH1820)) %>% 
+  rename(name = NAME, fips = UNFIPS, total = TTOT) %>%
+  mutate(fem_5_24 = FT5_9 + FT10_14 + FT15_19 + FT20_24, mal_5_24 = MT5_9 + MT10_14 + MT15_19 + MT20_24,
+         # Inconsistent age ranges
+         # Not sure how to fix this
+         pupils_in_school_6_20 = SCH69 + SCH1014 + SCH1517 + SCH1820)
+
+
+# PICK UP HERE
+
+tbl_6_d <- read_por("ICPSR_04296_demog/DS0006/04296-0006-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29, SCH713, SCH1415, SCH1617, SCH1820))
+
+tbl_7_d <- read_por("ICPSR_04296_demog/DS0007/04296-0007-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29, SCH713, SCH1415, SCH1617, SCH1820))
+
+tbl_8_d <- read_por("ICPSR_04296_demog/DS0008/04296-0008-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29, SCH56, SCH713, SCH1415, SCH1617, SCH1820))
+
+tbl_9_d <- read_por("ICPSR_04296_demog/DS0009/04296-0009-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29, SCH56, SCH713, SCH1415, SCH1617, SCH1819, SCH2024))
+
+# This year the data is aggragated, sadly
+tbl_10_d <- read_por("ICPSR_04296_demog/DS0010/04296-0010-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29, ENROLLCO, ENROLLEL, ENROLLHS, SCH534))
+
+tbl_11_d <- read_por("ICPSR_04296_demog/DS0011/04296-0011-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29, ENROLLCO, ENROLLEL, ENROLLHS))
+
+tbl_12_d <- read_por("ICPSR_04296_demog/DS0012/04296-0012-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29, ENROLLCO, ENROLLEL, ENROLLHS))
+
+tbl_13_d <- read_por("ICPSR_04296_demog/DS0013/04296-0013-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29, ENROLLCO, GRHI))
+
+tbl_14_d <- read_por("ICPSR_04296_demog/DS0014/04296-0014-Data.por", col_select = c(NAME, UNFIPS, TTOT, FT0_4, FT5_9, FT10_14, FT15_19, FT20_24, FT25_29, MT0_4, MT5_9, MT10_14, MT15_19, MT20_24, MT25_29, ENROLLCO, GRHI))
+
+# Make all the variables the same
+# Make sure they also have the same levels
+# bind_rows
+
+```
+
+
+```{r variables, include=FALSE}
+
+# Notes to myself about variable names
+
+# These are the relevant columns
+
+# Ag data
+
+# FML_XX_A Acres of farms
+# ARE_XX_A Total Land Area: Acres
+# FRM_XX_Q Number of Farms: Of All Sizes
+# PRP_XX_V Present Cash Value: Of Farms: Dollars
+# IMP_XX_V Present Cash Value: of Farming Implements and Machinery: Dollars
+# FRU_XX_V Orchard Products: Dollars
+# GDN_XX_V Produce of Market Gardens: Dollars
+# FST_XX_V Forest Products: Dollars
+# STK_XX_V Value of livestock
+
+# Changes
+
+# PRP_XX_V => PRP_OF_V
+# IMP_XX_V => IMP_OF_V
+# STK_XX_V, FRU_XX_V, GDN_XX_V, FST_XX_V => STK_XX_V, CRO_XX_V (livestock, crop values)
+
+# Demog data
+
+# TTOT total persons
+# FT0_4 females 0-4
+# FT5_9
+# FT10_14
+# FT15_19
+# FT20_24
+# FT25_29
+# MT0_4 males 0-4
+# MT5_9
+# MT10_14
+# MT15_19
+# MT20_24
+# MT25_29
+# ILL10P Persons age 10 and over who are illiterate
+# NWRI10P Persons age 10 and over who cannot write
+# POP10P Persons age 10 and over
+# SCH Pupils in common schools
+
+# Do this later?
+# pivot_longer(data = tbl_1_2, cols = )
+```
+
+```{r join, include=FALSE}
+
+# Need to decide on best type of join
+
+# Ag and demog data for 1870, joined by FIPS code
+
+j_1870 <- full_join(tbl_1, tbl_1_d, by = "fips") %>% 
+  mutate(perc_school = (fem_5_24 + mal_5_24)/pupils_in_school) %>%
+  group_by(fips)
+
+```
+
+```{r plot, include=FALSE}
+
+mplot <- j_1870 %>% ggplot(aes(x = value_farms, y = perc_school)) + 
+  geom_point(alpha = 0.5) + 
+  ylim(0, 50) + 
+  xlim(0, 5e+06) + 
+  geom_smooth(method = "lm") + 
+  theme_classic() + 
+  labs(title = "Relationship Between Farm Value and Education, by County", subtitle = "Great Plains Region, United States, 1870", x = "Total Dollar Value of Farms", y = "Percent Students Ages 5-24 Enrolled in School")
+
+```
+
+```{r mplot, echo=FALSE, warning=FALSE}
+plot(mplot)
+```
+
